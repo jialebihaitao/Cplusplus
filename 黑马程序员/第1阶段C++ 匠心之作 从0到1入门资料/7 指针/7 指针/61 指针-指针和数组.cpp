@@ -12,6 +12,8 @@ int main()
 	int * p = arr;  //arr就是数组首地址
 
 	cout << "第一个元素： " << arr[0] << endl;
+
+	int * p = arr;  //arr就是数组首地址
 	cout << "指针访问第一个元素： " << *p << endl;
 
 	cout << "利用指针偏移数组" << endl;

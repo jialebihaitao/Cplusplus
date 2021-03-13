@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 
+//实现两个数字进行交换
 //1.值传递
 void swap1(int a, int b)
 {

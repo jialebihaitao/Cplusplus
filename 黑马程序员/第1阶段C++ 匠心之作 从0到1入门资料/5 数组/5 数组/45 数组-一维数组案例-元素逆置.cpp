@@ -30,7 +30,7 @@ int main()
 	  //2.5 循环执行2.1操作,直到起始位置>=结束位置
 
 	int start = 0;//起始元素下标位置
-	int end = (sizeof(arr) / sizeof(arr[0])) - 1;//末尾元素下标
+	int end = (sizeof(arr) / sizeof(arr[0])) - 1;//末尾元素下标需要-1
 	int t = arr[start];//创建临时内存
 	while (start < end)
 	{
